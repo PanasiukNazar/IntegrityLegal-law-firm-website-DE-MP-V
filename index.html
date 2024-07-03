@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>IntegrityLegal</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h1 class="m-0">IntegrityLegal</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Startseite</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Über uns</a>
+                    <a href="residence-permit.html" class="nav-item nav-link"
+                        >Aufenthaltsbewilligung</a
+                    >
+                    <div class="nav-item dropdown">
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            >Seiten</a
+                        >
+                        <div class="dropdown-menu bg-light border-0 m-0">
+                            <a href="work-permit.html" class="dropdown-item"
+                                >Arbeitsbewilligung</a
+                            >
+                            <a href="testimonial.html" class="dropdown-item"
+                                >Erfahrungsberichte</a
+                            >
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Kontaktieren Sie uns</a
+                    >
+                </div>
+                <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                    +41412185515
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1
+                                            class="display-4 text-white mb-4 animated slideInDown"
+                                        >
+                                            Willkommen bei Ihrer
+                                            vertrauenswürdigen Kanzlei für
+                                            Legalisierung in der Schweiz
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown"
+                                        >
+                                            Unsere Kanzlei bietet umfassende und
+                                            spezialisierte Juristische Dienste
+                                            für Privatpersonen und Unternehmen
+                                            in der Schweiz. Unser Team aus
+                                            erfahrenen Juristen unterstützt Sie
+                                            bei allen Aspekten der
+                                            Legalisierung, von der
+                                            Antragstellung bis zur endgültigen
+                                            Genehmigung.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1
+                                            class="display-4 text-white mb-4 animated slideInDown"
+                                        >
+                                            Experten für die Legalisierung und
+                                            Rechtsberatung in der Schweiz
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown"
+                                        >
+                                            Unsere Kanzlei ist Ihr kompetenter
+                                            Partner für die Legalisierung und
+                                            alle rechtlichen Belange in der
+                                            Schweiz. Mit einem umfassenden
+                                            Portfolio an Juristische Dienste
+                                            unterstützen wir Sie bei der
+                                            Bewältigung Ihrer rechtlichen
+                                            Herausforderungen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-6 mb-5">
+                            Warum Sie sich für uns entscheiden sollten
+                        </h1>
+                        <p class="mb-5">
+                            Unsere Kanzlei steht für herausragende Juristische
+                            Dienste und umfassende Unterstützung bei der
+                            Legalisierung in der Schweiz. Mit einem erfahrenen
+                            Team aus spezialisierten Juristen bieten wir
+                            maßgeschneiderte Lösungen für Ihre rechtlichen
+                            Herausforderungen. Unsere Dienstleistungen
+                            erstrecken sich von der unentgeltlichen
+                            Rechtsberatung über die Erbringung von Juristische
+                            Dienste bis hin zur Vermittlung und Ausschreibung
+                            von juristischen Dienstleistungen. Vertrauen Sie auf
+                            unsere Expertise und lassen Sie uns gemeinsam Ihre
+                            rechtlichen Anliegen effizient und professionell
+                            bearbeiten.
+                        </p>
+                        <div class="d-flex mb-5">
+                            <div
+                                class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                                style="width: 90px; height: 90px"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="img/icon/icon-08-light.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-3">
+                                    Umfangreiche Erfahrung und Fachwissen
+                                </h5>
+                                <span
+                                    >Unsere Kanzlei zeichnet sich durch
+                                    langjährige Erfahrung und tiefgehendes
+                                    Fachwissen im Bereich der Legalisierung und
+                                    Rechtsberatung in der Schweiz aus. Wir
+                                    arbeiten eng mit renommierten Institutionen
+                                    wie dem Rechtsdienst Unibas, Rechtsdienst
+                                    UZH, Rechtsdienst Uri, Rechtsdienst Unibe
+                                    und Rechtsdienst Unispital zusammen, um
+                                    Ihnen die bestmögliche Unterstützung zu
+                                    bieten. Unser Team bleibt stets auf dem
+                                    neuesten Stand der rechtlichen Entwicklungen
+                                    und sorgt dafür, dass Ihre Anliegen mit
+                                    höchster Sorgfalt und Professionalität
+                                    behandelt werden.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5">
+                            <div
+                                class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                                style="width: 90px; height: 90px"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="img/icon/icon-10-light.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-3">
+                                    Individuelle und unentgeltliche Juristische
+                                    Dienste
+                                </h5>
+                                <span
+                                    >Wir bieten maßgeschneiderte Juristische
+                                    Dienste, die auf Ihre individuellen
+                                    Bedürfnisse zugeschnitten sind. Darüber
+                                    hinaus stellen wir unentgeltliche
+                                    Juristische Dienste zur Verfügung, um auch
+                                    denjenigen zu helfen, die sich keine
+                                    rechtliche Unterstützung leisten können.
+                                    Durch die enge Zusammenarbeit mit dem
+                                    Rechtsdienst VSSM, Rechtsdienst VSA und dem
+                                    Rechtsdienst Volksschulamt gewährleisten wir
+                                    eine umfassende und qualitativ hochwertige
+                                    Beratung und Unterstützung.</span
+                                >
+                            </div>
+                        </div>
+                        <div class="d-flex mb-0">
+                            <div
+                                class="flex-shrink-0 btn-square bg-primary rounded-circle"
+                                style="width: 90px; height: 90px"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="img/icon/icon-06-light.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-3">
+                                    Effiziente Vermittlung und Erbringung von
+                                    Juristische Dienste
+                                </h5>
+                                <span
+                                    >Unsere Kanzlei bietet eine effiziente
+                                    Vermittlung und Erbringung von Juristische
+                                    Dienste. Wir unterstützen Sie bei der
+                                    Ausschreibung und dem Einkauf von
+                                    juristischen Dienstleistungen und sorgen
+                                    dafür, dass Sie die bestmögliche rechtliche
+                                    Beratung erhalten. Mit unserem Rechtsdomizil
+                                    bieten wir Ihnen einen sicheren und
+                                    rechtlich einwandfreien Standort für Ihre
+                                    Anliegen. Vertrauen Sie auf unsere Expertise
+                                    und lassen Sie uns gemeinsam Ihre
+                                    rechtlichen Herausforderungen
+                                    meistern.</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div
+                            class="position-relative rounded overflow-hidden h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/feature.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Devider Start -->
+        <div
+            class="container-fluid facts my-5 py-5"
+            data-parallax="scroll"
+            data-image-src="img/devider-1.jpg"
+        >
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h1 class="display-6 mb-5 text-white">Unser Ansatz</h1>
+                    <p class="mb-5">
+                        Unsere Kanzlei steht für einen umfassenden und
+                        individuellen Ansatz bei der Legalisierung in der
+                        Schweiz und der Bereitstellung von Juristische Dienste.
+                        Wir verstehen, dass jedes rechtliche Anliegen
+                        einzigartig ist und eine maßgeschneiderte Lösung
+                        erfordert. Deshalb kombinieren wir tiefgehendes
+                        juristisches Fachwissen mit einer persönlichen
+                        Betreuung, um Ihnen die bestmögliche Unterstützung zu
+                        bieten. Unsere Dienstleistungen erstrecken sich von der
+                        Vermittlung und Erbringung von Juristische Dienste bis
+                        hin zur Ausschreibung und dem Einkauf von juristischen
+                        Dienstleistungen. Dank unserer engen Zusammenarbeit mit
+                        renommierten Institutionen wie dem Rechtsdienst Unibas,
+                        Rechtsdienst UZH, Rechtsdienst Uri, Rechtsdienst Unibe
+                        und Rechtsdienst Unispital können wir Ihnen stets
+                        aktuelle und fundierte rechtliche Unterstützung bieten.
+                        <strong> Maßgeschneiderte Lösungen </strong>
+
+                        Unser Ansatz beginnt mit einer detaillierten Analyse
+                        Ihres spezifischen Falles. Wir hören Ihnen aufmerksam
+                        zu, um Ihre Bedürfnisse und Ziele genau zu verstehen.
+                        Basierend auf dieser Analyse entwickeln wir
+                        maßgeschneiderte Rechtsstrategien, die auf Ihre
+                        individuellen Anforderungen zugeschnitten sind. Ob es
+                        sich um unentgeltliche Juristische Dienste oder
+                        spezialisierte Beratung handelt, wir sorgen dafür, dass
+                        Sie die bestmögliche Unterstützung erhalten.
+                        <strong> Partnerschaftliche Zusammenarbeit </strong>
+
+                        Wir legen großen Wert auf eine enge und
+                        partnerschaftliche Zusammenarbeit mit unseren Mandanten.
+                        Durch regelmäßige Kommunikation und transparente
+                        Informationsweitergabe halten wir Sie stets über den
+                        Fortschritt Ihres Falles auf dem Laufenden. Unsere
+                        Zusammenarbeit mit dem Rechtsdienst VSSM, Rechtsdienst
+                        VSA und dem Rechtsdienst Volksschulamt ermöglicht es
+                        uns, Ihnen auch bei komplexen rechtlichen
+                        Fragestellungen umfassende und fundierte Beratung zu
+                        bieten.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Devider End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <h1 class="display-6 mb-5">Unser Blog</h1>
+                    <p class="mb-5">
+                        In unserem Blog finden Sie wertvolle Informationen und
+                        aktuelle Nachrichten rund um die Legalisierung in der
+                        Schweiz und die Bereitstellung von Juristische Dienste.
+                        Unser Ziel ist es, Sie stets auf dem Laufenden zu halten
+                        und Ihnen fundierte Einblicke in verschiedene rechtliche
+                        Themen zu geben. Ob Sie nach unentgeltlichen Juristische
+                        Dienste suchen oder sich für spezifische rechtliche
+                        Fragestellungen interessieren, in unserem Blog werden
+                        Sie fündig.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item">
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-1.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="align-items-center bg-light"
+                                style="padding: 20px"
+                            >
+                                <a class="h4"
+                                    >Die Bedeutung unentgeltlicher Juristische
+                                    Dienste in der Schweiz
+                                </a>
+                                <p class="mt-3">
+                                    Unentgeltliche Juristische Dienste spielen
+                                    eine wesentliche Rolle im Schweizer
+                                    Rechtssystem. In diesem Beitrag erläutern
+                                    wir, wie Sie Zugang zu diesen
+                                    Dienstleistungen erhalten und welche
+                                    Voraussetzungen erfüllt sein müssen.
+                                    Erfahren Sie mehr über die Unterstützung .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item">
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-2.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="align-items-center bg-light"
+                                style="padding: 20px"
+                            >
+                                <a class="h4"
+                                    >Juristische Dienste für internationale
+                                    Studierende: Ein Überblick
+                                </a>
+                                <p class="mt-3">
+                                    Internationale Studierende stehen oft vor
+                                    besonderen rechtlichen Herausforderungen. In
+                                    diesem Artikel stellen wir die wichtigsten
+                                    Juristische Dienste vor, die Ihnen zur
+                                    Verfügung stehen, und wie der Rechtsdienst
+                                    Unibe und Rechtsdienst Unispital dabei
+                                    helfen können.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item">
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-3.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="align-items-center bg-light"
+                                style="padding: 20px"
+                            >
+                                <a class="h4"
+                                    >Vermittlung und Erbringung von Juristische
+                                    Dienste: Ein Leitfaden
+                                </a>
+                                <p class="mt-3">
+                                    Die Vermittlung und Erbringung von
+                                    Juristische Dienste ist ein komplexer
+                                    Prozess. Hier bieten wir Ihnen einen
+                                    umfassenden Leitfaden, der Ihnen hilft, den
+                                    richtigen Rechtsdienstleister zu finden und
+                                    die bestmögliche Beratung zu erhalten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item">
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-4.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="align-items-center bg-light"
+                                style="padding: 20px"
+                            >
+                                <a class="h4"
+                                    >Ausschreibung und Einkauf von Juristische
+                                    Dienste: Was Sie wissen müssen
+                                </a>
+                                <p class="mt-3">
+                                    Dieser Beitrag erklärt, wie die
+                                    Ausschreibung und der Einkauf von
+                                    Juristische Dienste funktionieren und welche
+                                    Vorteile sie bieten. Lernen Sie, wie Sie die
+                                    besten juristischen Ressourcen für Ihre
+                                    Bedürfnisse finden und nutzen können.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item">
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-5.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="align-items-center bg-light"
+                                style="padding: 20px"
+                            >
+                                <a class="h4"
+                                    >Rechtsdomizil in der Schweiz: Bedeutung und
+                                    Vorteile
+                                </a>
+                                <p class="mt-3">
+                                    Ein Rechtsdomizil kann in vielen rechtlichen
+                                    Angelegenheiten von Vorteil sein. Erfahren
+                                    Sie, was ein Rechtsdomizil ist, wie es
+                                    funktioniert und warum es für Sie wichtig
+                                    sein könnte, insbesondere wenn Sie
+                                    Unterstützung vom Rechtsdienst VSSM oder
+                                    Rechtsdienst VSA benötigen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item">
+                            <img
+                                style="width: 100%"
+                                class="img-fluid"
+                                src="img/blog-6.jpg"
+                                alt=""
+                            />
+                            <div
+                                class="align-items-center bg-light"
+                                style="padding: 20px"
+                            >
+                                <a class="h4">
+                                    Erfolgreiche Strategien für den Umgang mit
+                                    dem Rechtsdienst Volksschulamt
+                                </a>
+                                <p class="mt-3">
+                                    Das Volksschulamt spielt eine zentrale Rolle
+                                    im Bildungssystem der Schweiz. In diesem
+                                    Artikel geben wir Ihnen praktische Tipps und
+                                    Strategien für den erfolgreichen Umgang mit
+                                    rechtlichen Fragen, die im Zusammenhang mit
+                                    dem Rechtsdienst Volksschulamt auftreten
+                                    können.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6">
+                        <h1 class="text-white mb-4">IntegrityLegal</h1>
+                        <span>
+                            Willkommen bei unserer Kanzlei, die sich auf die
+                            Legalisierung in der Schweiz und die Bereitstellung
+                            umfassender Rechtsdienstleistungen spezialisiert
+                            hat. Unser engagiertes Team bietet Ihnen
+                            maßgeschneiderte rechtliche Unterstützung und
+                            Beratung, um Ihre individuellen Bedürfnisse zu
+                            erfüllen.
+                        </span>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="text-light mb-4">Newsletter</h5>
+                        <p>
+                            Abonnieren Sie unseren Newsletter und folgen Sie uns
+                            auf Social Media, um über die neuesten rechtlichen
+                            Entwicklungen auf dem Laufenden zu bleiben.
+                        </p>
+                        <div class="position-relative">
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Ihre E-Mail"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                Anmelden
+                            </button>
+                            <div id="result" style="color: red"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Kontaktieren Sie uns</h5>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i
+                            >Sankt-Oswalds-Gasse 1, 6300 Zug, Schweiz
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+41412185515</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >integrity_legal@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Unsere Dienstleistungen</h5>
+                        <a class="btn btn-link" href="#">Rechtsberatung</a>
+                        <a class="btn btn-link" href="#"
+                            >Legalisierungsdienste</a
+                        >
+                        <a class="btn btn-link" href="#">Vertragsrecht</a>
+                        <a class="btn btn-link" href="#">Streitschlichtung</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Schnelllinks</h5>
+                        <a class="btn btn-link" href="about.html">Über uns</a>
+                        <a class="btn btn-link" href="contact.html">Kontakt</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Nutzungsbedingungen</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Datenschutzrichtlinie</a
+                        >
+                        <a class="btn btn-link" href="business-model.html"
+                            >Geschäftsmodell</a
+                        >
+                    </div>
+                    <hr />
+                    <div class="col-lg-12 text-center">
+                        Haftungsausschluss: Die Informationen auf dieser Website
+                        sind nicht als Rechtsberatung gedacht und begründen kein
+                        Mandatsverhältnis. Die hier zur Verfügung gestellten
+                        Informationen, Dokumente oder Formulare dienen nur
+                        allgemeinen Informationszwecken und sollten nicht als
+                        Rechtsberatung angesehen werden. Die Gesetze ändern sich
+                        regelmäßig; daher kann es sein, dass die Informationen
+                        auf dieser Website nicht korrekt sind. Es ist unbedingt
+                        erforderlich, dass Sie sich rechtlich beraten lassen, um
+                        Ihre Rechte und Pflichten nach geltendem Recht und unter
+                        Berücksichtigung Ihrer besonderen Umstände zu bestimmen.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Einwilligung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis auf der Seite zu bieten.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
